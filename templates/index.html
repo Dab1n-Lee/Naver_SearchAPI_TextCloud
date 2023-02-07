@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <title>Naver Scrapper</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Naver Scrapper</h1>
+        <h4>what's your ineterest?</h4>
+        <form action="/search">
+            <fieldset>
+                <legend>Category</legend>
+                <label>
+                    <input type="radio" name="category" value="news">
+                    News
+                </label>
+                <label>
+                    <input type="radio" name="category" value="blog">
+                    Blog
+                </label>
+            </fieldset>
+            <span>
+                <input type="text" name="keyword" placeholder="검색어를 입력해주세요">
+                <input type="text" name="removeText" placeholder="제외할 단어를 띄어쓰기 단위로 입력해주세요">
+            </span>
+            <button>search</button>
+        </form>
+    </main>
+
+</body>
+</html>
